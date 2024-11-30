@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <aside class="sidebar">
+    <h2 id="projectsTitle">Proyectos</h2>
+    <ol>
+      <li class="listItem">Drafts</li>
+      <li class="listItem">Shared With Me</li>
+    </ol>
+    <button id="newDraftBtn">New Draft</button>
+    <button id="newProjectBtn">New Project</button>
+  </aside>
+
+  <div class="main">
+    <header>
+      <h1 id="mainTitle">Side Hustle</h1>
+    </header>
+
+    <div class="board">
+
+      <div class="column">
+        <h3><span class="dot blue"></span>Ideas</h3>
+        <div class="note">
+          <p><strong>Design Moodboard:</strong> Create a visual inspiration board for the product's look and feel.</p>
+          <img src="../Web/assets/icons/user/link.svg" alt="User link icon" class="noteImg">
+        </div>
+        <button class="addNoteBtn">Add Note</button>
+      </div>
+
+      <div class="column">
+        <h3><span class="dot yellow"></span>Features / Work in Progress</h3>
+        <div class="note">
+          <p><strong>API Design:</strong> Define endpoints and structure for seamless integration.</p>
+        </div>
+        <div class="note">
+          <p><strong>Hi-Fi Prototypes:</strong> Finalize interactive prototypes for user testing.</p>
+        </div>
+        <div class="note">
+          <p><strong>Edge Case Designs:</strong> Address all potential user scenarios in the interface.</p>
+        </div>
+        <button class="addNoteBtn">Add Note</button>
+      </div>
+
+      <div class="column">
+        <h3><span class="dot green"></span>Done</h3>
+        <div class="note">
+          <p><strong>Information Architecture:</strong> Organize content structure for usability.</p>
+        </div>
+        <div class="note">
+          <p><strong>Code Convention:</strong> Establish consistent coding standards for the team.</p>
+        </div>
+        <div class="note">
+          <p><strong>Wireframes:</strong> Finalize low-fidelity designs for the main features.</p>
+        </div>
+        <button class="addNoteBtn">Add Note</button>
+      </div>
+
+      <div class="column">
+        <h3><span class="dot black"></span>Goals</h3>
+        <div class="note">
+          <p><strong>MVP:</strong> Complete the minimum viable product for initial release.</p>
+        </div>
+        <div class="note">
+          <p><strong>Launch Plans:</strong> Develop a marketing and rollout strategy for the product.</p>
+        </div>
+        <button class="addNoteBtn">Add Note</button>
+      </div>
+
+      <!-- Nueva sección agregada -->
+      <section class="newSection">
+        <h2>Upcoming Projects</h2>
+        <p>This section will showcase upcoming features and ideas for future sprints. Stay tuned!</p>
+      </section>
+      
+    </div>
+  </div>
+</body>
+</html>
